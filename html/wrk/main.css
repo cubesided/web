@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-.image{background: url(fade%20in%20block.jpg); -webkit-transition: ease-out 0.5s; transition: ease-out 0.5s;
+.image{background: url(fade%20in%20block.jpg); -webkit-transition: ease-out 0.5s; transition: ease-out 0.5s;}
 
 
 body{
