@@ -5,7 +5,18 @@
 /* Apple Garamond is made by Apple Inc. */
 @font-face {
   font-family: 'Garamond';
+  font-weight: 100;
+  src: url('fonts/AppleGaramond.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'GaramondLight';
+  font-weight: light;
   src: url('fonts/AppleGaramond-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'GaramondBold';
+  font-weight: 900;
+  src: url('fonts/AppleGaramond-Bold.ttf') format('truetype');
 }
 
 body{
