@@ -2,6 +2,11 @@
 
 .image{background: url("https://cubesided.github.io/html/wrk/fade%20in%20block.jpg"); opacity: 0; /* Initially hidden */;}
 
+/* Apple Garamond is made by Apple Inc. */
+@font-face {
+  font-family: 'Garamond';
+  src: url('fonts/AppleGaramond-Light.ttf') format('truetype');
+}
 
 body{
   font-family: "Roboto", sans-serif;
