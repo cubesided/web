@@ -68,6 +68,12 @@ body{
     top: -70%;
 }
 
+p.lge {
+    left: 90px;
+    top: 20px;
+    position: absolute;
+}
+
 .ast36 {
   animation: fadeIn 1s;
   -webkit-animation: fadeIn 1s;
