@@ -234,5 +234,16 @@ a {
     text-align: center;
 }
 
+/* Footer */
+
+.ftlge {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 135;
+    top: -70%;
+}
+
 // <weight>: Use a value from 100 to 900
 // <uniquifier>: Use a unique and descriptive class name
