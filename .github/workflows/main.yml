@@ -22,3 +22,4 @@ jobs:
       - uses: caltechlibrary/waystation@v1.8
         with:
           dry_run: ${{github.event.inputs.dry_run || false}}
+          save_outlinks: true
