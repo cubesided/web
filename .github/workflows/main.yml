@@ -1,0 +1,16 @@
+            - name: Waystation
+  # You may pin to the exact commit or the version.
+  # uses: caltechlibrary/waystation@d2d129d8b3dc12d2a1957f342215388c71998520
+  uses: caltechlibrary/waystation@v1.8
+  with:
+    # Print what would be done without actually doing it.
+    dry_run: # optional
+    # Whether the Wayback Machine should save pages that return HTTP status 4xx-5xx.
+    save_errors: # optional
+    # Tell the Wayback Machine to save links to external web pages.
+    save_outlinks: # optional, default is true
+    # Tell the Wayback Machine to save a screenshot of the front page.
+    save_screenshot: # optional, default is true
+    # Print context and variables in the GitHub Actions log.
+    debug: # optional
+          
