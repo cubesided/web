@@ -1,7 +1,7 @@
 //document.getElementById("nag").addEventListener("click", myFunction);
 function myFunction() {
 	document.getElementById("load").style.display = "block";
-	window.top.location="active.php";
+	window.top.location="active.html";
 }
 
 document.getElementById("home").addEventListener("click", function() {
@@ -12,7 +12,7 @@ w
 
 document.getElementById("ast36").addEventListener("click", function() {
 	document.getElementById("load").style.display = "block";
-	window.top.location="ast36.php";
+	window.top.location="ast36.html";
 });
 
 document.getElementById("abt").addEventListener("click", function() {
@@ -27,7 +27,7 @@ document.getElementById("git").addEventListener("click", function() {
 
 document.getElementById("laptop").addEventListener("click", function() {
         document.getElementById("load").style.display = "block";
-        window.top.location="ast36.php";
+        window.top.location="ast36.html";
 });
 
 document.getElementById("contact").addEventListener("click", function() {
@@ -47,7 +47,7 @@ curqu.forEach(element => {
   element.addEventListener('click', function() {
     // Your event handling logic here
 	document.getElementById("load").style.display = "block";
-	window.top.location="active.php";
+	window.top.location="active.html";
   });
 });
 
