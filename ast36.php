@@ -1,0 +1,46 @@
+
+<html><head>
+	<meta charset="UTF-8">
+	<title>cubesided Astrix 3600</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<link rel="stylesheet" href="app.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body cz-shortcut-listen="true">
+
+<header>
+<p>cubesided.net | beta</p>
+<div class="fancyui"><input type="submit" id="load" class="non-btn" value="   Loading...   " style="background: #FFBF00;color:black;display: none;"></div>
+<a href="about.html" id="abt">About cubesided</a>
+</header>
+    <div class="main-wrapper">
+	<div class="scontent fancyui">
+		<div class="button-group-top">
+		<input value="Home" id="home" type="submit"><br>
+		<input value="Astrix 3600" id="ast36" type="submit">
+		</div>
+		<div class="button-group-bottom">
+			<input class="accuni" value="Webmaster Contacts" id="contact" type="submit">
+			<br>
+			<input class="accuni" value="Github Repo" id="git" type="submit">
+		</div>
+	</div>
+
+	<div class="mcontent">
+		<i><h3 style="margin: 10px 0 1.4em;">cubeside<span style="user-select: none;color:#0f3dfe">/<span style="color:#ff3131">/</span></span>d Astrix 3600</h3></i><br>
+		<div class="container"><div class="column"><object data="data/astrix/astlge.svg" width="105" height="105"> </object>
+<p><b>The Astrix 3600</b> is a personal project that I am working on in my spare time as well as incorporating it into my Design & Technology Assessment for Term 4, 2025. This project will hopefully be updated every year up until my HSC (2027) which will include way better specs, its own firmware and being completely open source.<br>
+<br> Coming Soon, around November 2025.</p><br><br><hr>
+		<div id="laptop" class="fancyui">
+			<input class="accuni" type="submit" value="Buy" />
+		</div></div><div class="column"><img style="width: 208;" src="data/astrix/ddld.png"><h4>Info & Specs:</h4> <ul><li>cubesided OSr1 Debian</li><li>Raspberry Pi 5</li><li>Display Unknown</li></ul> </div></div>
+	</div></div>
+
+<footer><p>Developed by @actium_xyz</p><p id="currentTime"></p></footer>
+
+
+<script src="app.js"></script>
+
+</body></html>
