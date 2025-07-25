@@ -1,0 +1,47 @@
+
+<html><head>
+	<meta charset="UTF-8">
+	<title>cubesided</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<link rel="stylesheet" href="app.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body cz-shortcut-listen="true">
+
+<header>
+<p>cubesided.net | beta</p>
+<div class="fancyui"><input type="submit" id="load" class="non-btn" value="   Loading...   " style="background: #FFBF00;color:black;display: none;"></div>
+<a href="about.html" id="abt">About cubesided</a>
+</header>
+    
+    <div class="main-wrapper">
+	<div class="scontent fancyui">
+		<div class="button-group-top">
+		<input value="Home" id="home" type="submit"><br>
+		<input value="Astrix 3600" id="ast36" type="submit">
+		</div>
+		<div class="button-group-bottom">
+			<input class="accuni" value="Webmaster Contacts" id="contact" type="submit">
+			<br>
+			<input class="accuni" value="Github Repo" id="git" type="submit">
+		</div>
+	</div>
+
+	<div class="mcontent">
+		<i><h3>cubeside<span style="user-select: none;color:#0f3dfe">/<span style="color:#ff3131">/</span></span>d</h3></i>
+		<p>Welcome to the cubesided website!<br>
+You can find out information about products or services I have made here.<br>
+Bigger products will be presented here with a link.</p><br><h5>UPCOMING:</h5><hr>
+		<div class="fancyui">
+			<div id="laptop" type="tile"><br><img src="data/astrix/frontheader.svg" width="205" /><br><br></div>
+		</div>
+	</div></div>
+
+<footer><p>Developed by @actium_xyz</p><p id="currentTime"></p></footer>
+
+
+<script src="app.js"></script>
+
+</body></html>
