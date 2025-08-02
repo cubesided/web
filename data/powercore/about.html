@@ -1,2 +1,108 @@
 <h1>cubesided Powercore</h1>
 <p>OriginalV : PowerCore V3.8<br>Redesigned in 2025 by @actium_xyz</p>
+
+<!doctype html>
+
+<!--
+about:version template page
+-->
+
+<html id="t" dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>About Version</title>
+    <link rel="stylesheet" href="chrome://resources/css/text_defaults.css">
+
+    <link rel="stylesheet" href="chrome://version/about_version.css">
+
+
+
+
+    <script src="chrome://resources/js/cr.js"></script>
+    <script src="chrome://resources/js/load_time_data.js"></script>
+    <script src="chrome://resources/js/parse_html_subset.js"></script>
+    <script src="chrome://resources/js/util.js"></script>
+    <script src="chrome://version/version.js"></script>
+    <script src="chrome://version/strings.js"></script>
+  </head>
+
+  <body>
+    <div id="outer">
+      <div id="logo">
+
+        <!-- Version for themes. -->
+        <img src="chrome://theme/IDR_PRODUCT_LOGO">
+
+
+        <div id="company">cubesided</div>
+        <div id="copyright">Copyright 2025 cubesided. All rights reserved.</div>
+      </div>
+      <table id="inner" cellpadding="0" cellspacing="0" border="0">
+        <tr><td class="label">Powercore</td>
+          <td class="version" id="version">
+            <span>1.0</span>
+            (<span>Developer Build</span>)
+            <span></span>
+            <span>(64-bit)</span>
+
+            <span></span>
+
+          </td>
+        </tr>
+        <tr>
+          <td class="label">Revision</td>
+          <td class="version">
+            <span>79f7c91a2b2a2932cd447fa6f865cb6662fa8fa6-refs/heads/master@{#587811}</span>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="label">OS</td>
+          <td class="version" id="os_type">
+            <span>Windows</span>
+
+          </td>
+        </tr>
+
+
+
+
+        <tr><td class="label">JavaScript</td>
+          <td class="version" id="js_engine">
+            <span>V8</span>
+            <span>7.0.276.3</span>
+          </td>
+        </tr>
+
+
+        <tr><td class="label">Flash</td>
+          <td class="version" id="flash_version"></td>
+        </tr>
+
+        <tr><td class="label">User Agent</td>
+          <td class="version" id="useragent">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.0 Safari/537.36</td>
+        </tr>
+        <tr><td class="label">Command Line</td>
+          <td class="version" id="command_line">&quot;C:\Users\actium\AppData\Local\Chromium\Application\chrome.exe&quot; --flag-switches-begin --top-chrome-md=material --disable-features=NewStyleNotifications --flag-switches-end --file-url-path-alias=&quot;/gen=C:\Users\actium\AppData\Local\Chromium\Application\gen&quot; -- &quot;F:\cwin-web-sites\about.html&quot;</td>
+        </tr>
+
+        <tr><td class="label">Executable Path</td>
+          <td class="version" id="executable_path"></td>
+        </tr>
+        <tr><td class="label">Profile Path</td>
+          <td class="version" id="profile_path"></td>
+        </tr>
+
+        <tr id="variations-section">
+          <td class="label">Variations</td>
+          <td class="version" id="variations-list"></td>
+        </tr>
+        <tr id="variations-cmd-section" hidden>
+          <td class="label">Command-line variations</td>
+          <td class="version-wide" id="variations-cmd"></td>
+        </tr>
+      </table>
+    </div>
+    <script src="chrome://resources/js/i18n_template.js"></script>
+  </body>
+</html>
