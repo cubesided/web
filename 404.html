@@ -19,7 +19,7 @@
 
 	<div class="mcontent">
 		<center><i><h3>404 - Page not found</h3></i></center><hr>
-		<center><br><br><br><br><p>It seems like the URL you entered does not exist!<br>Please make sure its spelt correctly or, if not, you can go back to where you left off.<br>
+		<center><br><br><br><br><p>It seems like the URL you entered (<i id="requested"></i>)does not exist!<br>Please make sure its spelt correctly or, if not, you can go back to where you left off.<br>
 <br>
 <a href="https://emoji.gg/emoji/96182-waltersadge#"><img src="https://cdn3.emoji.gg/emojis/96182-waltersadge.gif" width="64px" height="64px" alt="SpinningFish"></a><br><div class="fancyui">
 			<input value="Go Back" type="submit" onclick="window.history.back();">
@@ -37,6 +37,13 @@
 
 
 <script src="app.js"></script>
+<script>
+	const currentUrl = window.location.href;
+	console.log(currentUrl);
+	const re = document.getElementById("requested")
+	re.textContent = currentUrl;
+	
+</script>
 
 
 </body></html>
