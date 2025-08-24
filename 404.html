@@ -47,6 +47,8 @@
 	re.textContent = newStringReplace;
 	if (!newStringReplace.endsWith("/")) {
 		re.textContent += "/"
+	} else if (newStringReplace.endsWith(".html")) {
+		// halt
 	}
 	
 </script>
