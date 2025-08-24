@@ -42,7 +42,7 @@
 	console.log(currentUrl);
 	const re = document.getElementById("requested");
 	
-	const newStringReplace = originalString.replace("https://cubesided.net/", ""); // Replaces "prefix_" with an empty string
+	const newStringReplace = currentUrl.replace("https://cubesided.net/", ""); // Replaces "prefix_" with an empty string
 	console.log(newStringReplace); // Output: "data"
 	re.textContent = newStringReplace;
 	
