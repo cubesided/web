@@ -45,7 +45,7 @@
 	const newStringReplace = currentUrl.replace("https://cubesided.net/", ""); // Replaces "prefix_" with an empty string
 	console.log(newStringReplace); // Output: "data"
 	re.textContent = newStringReplace;
-	if (!textContent.endsWith("/")) {
+	if (!newStringReplace.endsWith("/")) {
 		re.textContent += "/"
 	}
 	
