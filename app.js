@@ -78,3 +78,31 @@ function isMobileByScreenSize() {
 	return window.innerWidth <= 768; // Common breakpoint for mobile portrait
 }
 
+function isMobileByUserAgent() {
+	const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+	return /Mobi|Android|iPhone|iPad|iPod|BlackBerry|webOS|Windows Phone/i.test(userAgent);
+}
+
+function detectDeviceType() {
+    const isMobileUA = isMobileByUserAgent();
+    const isMobileScreen = isMobileByScreenSize();
+    const isTouch = hasTouchScreen();
+
+    if (isMobileUA || isMobileScreen || isTouch) {
+        return "mobile";
+    } else {
+        return "desktop";
+    }
+}
+
+const deviceType = detectDeviceType();
+console.log(`User is on a: ${deviceType} device.`);
+
+if (deviceType == "mobile") {
+	    const newHTMLContent = `
+      <h1>This site is made for desktops.</h1>
+	  <p>It is not currently optimised for mobile/touch usage.</p>
+    `;
+	document.body.innerHTML = newHTMLContent;
+}
+
