@@ -100,9 +100,8 @@ console.log(`User is on a: ${deviceType} device.`);
 
 if (deviceType == "mobile") {
 	    const newHTMLContent = `
-      <h1>Welcome to my JavaScript-generated page!</h1>
-      <p>This content was dynamically created by JavaScript, replacing the original HTML.</p>
-      <button onclick="alert('Hello from JavaScript!')">Click Me</button>
+      <h1>This site is made for desktops.</h1>
+	  <p>It is not currently optimised for mobile/touch usage.</p>
     `;
 	document.body.innerHTML = newHTMLContent;
 }
