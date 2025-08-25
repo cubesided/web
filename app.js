@@ -30,11 +30,6 @@ document.getElementById("powercore").addEventListener("click", function() {
 	window.top.location="powercore.html";
 });
 
-document.getElementById("laptop").addEventListener("click", function() {
-        document.getElementById("load").style.display = "block";
-        window.top.location="ast36.html";
-});
-
 document.getElementById("contact").addEventListener("click", function() {
 	document.getElementById("load").style.display = "block";
 	window.top.location="contact.html";
@@ -53,6 +48,16 @@ curqu.forEach(element => {
     // Your event handling logic here
 	document.getElementById("load").style.display = "block";
 	window.top.location="active.html";
+  });
+});
+
+const laptop = document.querySelectorAll('#laptop');
+
+laptop.forEach(element => {
+  element.addEventListener('click', function() {
+    // Your event handling logic here
+	document.getElementById("load").style.display = "block";
+        window.top.location="ast36.html";
   });
 });
 
