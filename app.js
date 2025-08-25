@@ -25,6 +25,11 @@ document.getElementById("git").addEventListener("click", function() {
 	window.top.location="https://github.com/cubesided";
 });
 
+document.getElementById("powercore").addEventListener("click", function() {
+	document.getElementById("load").style.display = "block";
+	window.top.location="powercore.html";
+});
+
 document.getElementById("laptop").addEventListener("click", function() {
         document.getElementById("load").style.display = "block";
         window.top.location="ast36.html";
@@ -51,6 +56,15 @@ curqu.forEach(element => {
   });
 });
 
+const pwrcrgit = document.querySelectorAll('#pwrcrgit');
+
+pwrcrgit.forEach(element => {
+  element.addEventListener('click', function() {
+    // Your event handling logic here
+	document.getElementById("load").style.display = "block";
+	window.top.location="https://github.com/cubesided/powercore/releases/latest";
+  });
+});
 
 function showTime() {
 	var d = new Date();
