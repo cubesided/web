@@ -25,11 +25,6 @@ document.getElementById("git").addEventListener("click", function() {
 	window.top.location="https://github.com/cubesided";
 });
 
-document.getElementById("powercore").addEventListener("click", function() {
-	document.getElementById("load").style.display = "block";
-	window.top.location="powercore.html";
-});
-
 document.getElementById("contact").addEventListener("click", function() {
 	document.getElementById("load").style.display = "block";
 	window.top.location="contact.html";
@@ -68,6 +63,16 @@ pwrcrgit.forEach(element => {
     // Your event handling logic here
 	document.getElementById("load").style.display = "block";
 	window.top.location="https://github.com/cubesided/powercore/releases/latest";
+  });
+});
+
+const powercore = document.querySelectorAll('#powercore');
+
+powercore.forEach(element => {
+  element.addEventListener('click', function() {
+    // Your event handling logic here
+	document.getElementById("load").style.display = "block";
+	window.top.location="powercore.html";
   });
 });
 
