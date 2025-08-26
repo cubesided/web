@@ -205,6 +205,8 @@ header {
 
     color: black;
 
+    user-select: none;
+
 }
 
 
