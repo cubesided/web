@@ -66,9 +66,9 @@ pwrcrgit.forEach(element => {
   });
 });
 
-const powercore = document.querySelectorAll('#powercore');
+const browser = document.querySelectorAll('#powercore');
 
-powercore.forEach(element => {
+browser.forEach(element => {
   element.addEventListener('click', function() {
     // Your event handling logic here
 	document.getElementById("load").style.display = "block";

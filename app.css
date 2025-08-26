@@ -121,6 +121,10 @@ body {font-family: Arial, Verdana, sans-serif;}
 
 }
 
+.fancyui div[class="suspend"] {
+max-width: 200px;
+}
+
 
 
 .scontent {
