@@ -21,19 +21,11 @@
 
 .fancyui input[type="submit"] {
 
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#f1f1f1));
-
-    background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
-
     -webkit-border-radius: 2px;
 
     -webkit-user-select: none;
 
     background-color: #f5f5f5;
-
-    background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
-
-    background-image: -o-linear-gradient(top,#f5f5f5,#f1f1f1);
 
     border: 1px solid #dcdcdc;
 
@@ -66,7 +58,9 @@
 
 
 .fancyui input[class="non-btn"] {cursor: default;}
-.fancyui div[class="suspend"] ::hover {cursor: default;}
+.fancyui input[type="submit"]:hover {background-color: #e6e6e6;}
+.fancyui div[type="tile"]:hover {background-color: #e6e6e6;}
+
 
 
 
@@ -77,6 +71,7 @@ body {font-family: Arial, Verdana, sans-serif;}
 .fancyui input[class="accuni"] {
 
     background: #DC4E41;
+    background-image: linear-gradient(0,#DC4E41,#DC4E41);
 
     color: white;
 
@@ -218,7 +213,7 @@ header a {color: black;}
 
 footer {
 
-   font-size: 12px;
+   font-size: 10px;
 
    /* margin-top: 10px; */
 
