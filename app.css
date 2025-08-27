@@ -66,6 +66,7 @@
 
 
 .fancyui input[class="non-btn"] {cursor: default;}
+.fancyui div[class="suspend"] ::hover {cursor: default;}
 
 
 
