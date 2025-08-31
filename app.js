@@ -66,6 +66,17 @@ pwrcrgit.forEach(element => {
   });
 });
 
+const pwrcrdocs = document.querySelectorAll('#pwrcrdocs');
+
+pwrcrdocs.forEach(element => {
+  element.addEventListener('click', function() {
+    // Your event handling logic here
+	document.getElementById("load").style.display = "block";
+	window.top.location="https://docs.google.com/document/d/1fLfnpURw6OwIzgkamP-H_jBhe2azFiwp5vNNWoNPKjE/edit?usp=sharing";
+  });
+});
+
+
 const browser = document.querySelectorAll('#powercore');
 
 browser.forEach(element => {
