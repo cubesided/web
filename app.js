@@ -98,7 +98,7 @@ showTime();
 
 setInterval(function () {
 
-	//showTime();
+	showTime();
 
 }, 1000);
 
@@ -140,9 +140,3 @@ if (deviceType == "mobile") {
     `;
 	document.body.innerHTML = newHTMLContent;
 }
-
-fetch('https://api.github.com/repos/cubesided/web/commits?per_page=1')
-      .then(response => response.json())
-      .then(data => {
-        document.getElementById('currentTime').textContent = data[0].sha.substring(0, 7);
-      });
