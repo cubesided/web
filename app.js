@@ -76,6 +76,15 @@ pwrcrdocs.forEach(element => {
   });
 });
 
+const helmet = document.querySelectorAll('#neo');
+
+helmet.forEach(element => {
+  element.addEventListener('click', function() {
+    // Your event handling logic here
+	document.getElementById("load").style.display = "block";
+	window.top.location="neo.html";
+  });
+});
 
 const browser = document.querySelectorAll('#powercore');
 
@@ -86,6 +95,17 @@ browser.forEach(element => {
 	window.top.location="powercore.html";
   });
 });
+
+const neodotinfo = document.querySelectorAll("#neodotinfo");
+
+neodotinfo.forEach(element => {
+  element.addEventListener('click', function() {
+    // Your event handling logic here
+	document.getElementById("load").style.display = "block";
+	window.top.location="https://docs.google.com/document/d/19fzkIxyD2XYffWAvzY0RGFOq1R1cOLJPwvEuXzCXnpM/edit?usp=sharing";
+  });
+});
+
 
 function showTime() {
 	var d = new Date();
