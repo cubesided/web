@@ -1,3 +1,8 @@
 body {
-  background: blue;
+  background: lightgray;
+}
+
+.content {
+  height: 100%;
+  background: white;
 }
