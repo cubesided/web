@@ -72,7 +72,8 @@ body {font-family: Arial, Verdana, sans-serif; background-color: white;
      
      position: relative;
   margin: 0px auto;
-  padding-bottom: 301px;
+  padding-bottom: 25px;
+      padding-top: 25px;
   width: 1003px;
   border-left: medium;
   border-right: medium;}
