@@ -19,13 +19,6 @@
 }
 
 main {
-  position: relative;
-  margin: 0px auto;
-  padding-bottom: 301px;
-  width: 1003px;
-  border-left: medium;
-  border-right: medium;
-  overflow: hidden;
   background: white;
 }
 
@@ -75,7 +68,14 @@ main {
 
 
 
-body {font-family: Arial, Verdana, sans-serif; background-color: white;}
+body {font-family: Arial, Verdana, sans-serif; background-color: white;
+     
+     position: relative;
+  margin: 0px auto;
+  padding-bottom: 301px;
+  width: 1003px;
+  border-left: medium;
+  border-right: medium;}
 
 
 
