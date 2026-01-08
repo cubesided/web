@@ -1,6 +1,6 @@
 //document.getElementById("nag").addEventListener("click", myFunction);
-let elements = document.getElementsByTagName("div");
-let tagname = elements[0].getAttribute("tag")
+let elemento = document.getElementsByTagName("div");
+let tagname = elemento[0].getAttribute("tag")
 
 function myFunction() {
 	document.getElementById("load").style.display = "block";
