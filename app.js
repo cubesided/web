@@ -1,5 +1,5 @@
 //document.getElementById("nag").addEventListener("click", myFunction);
-let elemento = document.getElementsByTagName("div");
+let elemento = document.getElementsByTagName("main");
 let tagname = elemento[0].getAttribute("tag")
 
 function myFunction() {
