@@ -1,9 +1,15 @@
 //document.getElementById("nag").addEventListener("click", myFunction);
+let elements = document.getElementsByTagName("div");
+let tagname = elements[0].getAttribute("tag")
+
 function myFunction() {
 	document.getElementById("load").style.display = "block";
 	window.top.location="active.html";
 }
 
+if (tagname == "construction") {
+	// halt
+} else {
 document.getElementById("home").addEventListener("click", function() {
 	document.getElementById("load").style.display = "block";
 	window.top.location="./";
@@ -105,6 +111,7 @@ neodotinfo.forEach(element => {
 	window.top.location="https://docs.google.com/document/d/19fzkIxyD2XYffWAvzY0RGFOq1R1cOLJPwvEuXzCXnpM/edit?usp=sharing";
   });
 });
+}
 
 
 function showTime() {
